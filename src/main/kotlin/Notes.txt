@@ -1,0 +1,17 @@
+1) Kotlin runs on the JVM. It is a JVM language. Just like any normal java file class it get compile into class byte
+   code after that Kotlin runtime Jar get add in it and generate the output.
+
+2) val cannot be reassigned and var is re-assignable. val work as a constant.
+
+3) Type inference : is when you create a variable without mentioning the data type
+   e.g val msg = "vishal"
+   ctrl+shift+p   : to view the data type
+
+   to provide the data type while creation : val score: Int = 12
+
+4) Ranges in kotlin: 1..4 --> 1 to 5 including 5
+   until keyword :  1 until 5 : excluding upper bound
+
+5) When is Switch case in java
+        in the case of when you can also pass the logic
+
