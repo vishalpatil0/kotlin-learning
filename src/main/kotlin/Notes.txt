@@ -15,3 +15,44 @@
 5) When is Switch case in java
         in the case of when you can also pass the logic
 
+6) Function syntax:
+        fun add(num1 : Int, num2 : Int) : Int {
+
+        }
+
+        Default value of function parameter are allowed in kotlin.
+
+        Named Arguments : is when you are passing argument to function call in any order by mentioning the name of the variable.
+
+        You can also store function in variable
+
+6) kotlin doesn't have primitive data type.
+
+7) While creating object of a class if there is init() blocks present in class they get executed first before constructor{...} block
+   Rule in kotlin for constructor:
+    Whenever you declare a secondary constructor using constructor{...} keyword you have to call the primary constructor using this()
+    primary constructor is the one with class name
+    You can make the secondary constructor as primary constructor by removing the parenthesis in front of the class name
+
+8) To reduce the run time error in kotlin you have to initialize property (variable).
+    -> but sometime you have to initialize the property later in that case you can declare your property with lateinit variable.
+    lateinit have some rule that it can't be val type and can't work with int float double
+
+9) Kotlin default syntax for getter and setter
+    e.g -->
+            lateinit var name:String
+            set(value) {
+                field = value
+            }
+            get() = field      //can you return in getter with curly bracket code block
+
+10) to inherit the base class you need to declare the open keyword in_front of the base class
+     same like java kotlin doesn't support multiple inheritance
+
+11) In kotlin the super class of all class is Any
+
+12) Abstract method and classes are same as java
+
+13) Java --> instanceOf    ====    Kotlin --> is
+
+

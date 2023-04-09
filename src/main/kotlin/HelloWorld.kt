@@ -5,4 +5,6 @@ fun main(args: Array<String>) {
 
     var score : Int = 12
     print(number)
+
+    println("hello vishal number --> $number")
 }
