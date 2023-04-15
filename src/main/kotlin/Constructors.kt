@@ -1,3 +1,7 @@
+/**
+ * If there is no class name declaration level constructor and class contain init() and constructor() block then init block get executed first
+ */
+
 //empty class
 class Empty{}
 
